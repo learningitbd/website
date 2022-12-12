@@ -1,0 +1,764 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/w-accessories-slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hdpart{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{}
+.logo h1{
+    font-size: 45px;
+    margin-left:30px;
+}
+.nav{}
+.nav ul{}
+.nav ul li{
+    display:inline-flex;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.nav ul li a:hover{
+    background: #1E8AE0;
+    color: white;
+    border: none;
+}
+.login{}
+.login a{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.login a{
+    text-decoration-line: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.login a:hover{
+    background:#1E8AE0;
+    color: white;
+    border: none;
+}
+.bdpart{
+    width: 98%;
+    margin-top: 15%;
+    margin-left:30px;
+}
+.bdpart h1{
+    text-transform: capitalize;
+    font-size: 55px;
+    width:35%;
+}
+.bdpart p{
+    margin-top: 10px;
+    width: 35%;
+}
+.bdpart button{
+    padding: 10px 25px;
+    margin: 19px 10px 0px 20px;
+    border-radius: 10px; 
+    border: 1px solid #d0cece;  
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.one{
+    background: #1E8AE0;
+    color: whitesmoke;
+    border: none;
+}
+
+.banner{
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+    margin-left: -30px;
+}
+.product{
+    margin-left: 70px;
+    color: #424242;
+}
+.product img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.product h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.product p{
+    color: #707070;
+}
+
+.arrivals{
+    margin-top: 100px;
+    text-align: center;
+}
+.arrivals a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #1E8AE0;
+}
+.arrivals h2{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.arrivals p{
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caseitem{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.option {
+    display: flex; 
+    justify-content: center;
+}
+.option h4{
+    margin: 20px;
+    color: #707070;
+}
+.option h4:hover{
+    color:brown;
+    cursor: pointer;
+}
+.cases{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.phonecase{
+    width: 50%;
+}
+.phonecase img{
+    width: 100%;
+}
+.phonecase h1{
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: #2e2e2e;
+    font-family: 'Roboto', sans-serif;
+}
+.phonecase p{
+    margin-bottom: 5px;
+    color: #707070;
+}
+.phonecase h5{
+    font-size: 17px;
+    color: #1E8AE0;
+}
+
+.provide{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.quality{}
+.quality a{
+    text-decoration: none;
+    color:#1E8AE0;
+}
+.quality h1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    color: #2b2929;
+}
+.quality p{
+    color: #707070;
+}
+
+.fast{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+.best{
+    width: 30%;
+    margin-left: 35px;
+
+}
+.best img{
+    width: 20%;
+}
+.best h1{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.best p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 120px;
+}
+.cardone{
+    background:url(../images/accessories-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height:55vh;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.cardone p{
+    margin-top: 50px;
+    color:#1E8AE0;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.cardone h1{
+    margin-left: 35px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.cardone button{
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 7px 16px;
+    border-radius: 10px;
+    border: 1px solid #1E8AE0;
+    background: #1E8AE0;
+    color: whitesmoke;
+}
+.cardtwo{
+    width: 65%;
+    height: 55vh;
+    background: url(../images/accessories-banner-2.jpg);
+    margin-left: 25px;
+}
+.cardtwo p{
+    margin-top: 50px;
+    color:#1E8AE0;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.cardtwo h1{
+    margin-left: 35px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.cardtwo button{
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 7px 16px;
+    border-radius: 10px;
+    border: 1px solid black;   
+}
+.cardd{
+    margin-top:20px;
+    display: flex;
+}
+.cardthree{
+    width: 65%;
+    height: 55vh;
+    background: url(../images/accessories-banner-3.jpg);
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.cardthree p{
+    margin-top: 50px;
+    color:#1E8AE0;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.cardthree h1{
+    margin-left: 35px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.cardthree button{
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 7px 16px;
+    border-radius: 10px;
+    border: 1px solid black;   
+}
+
+.cardfour{
+    width: 40%;
+    height:55vh;
+    margin-left: 15px;
+    border-radius: 20px;
+    background: url(../images/wood-accessories-category-4-opt.jpg);
+}
+.cardfour p{
+    margin-top: 50px;
+    color:#1E8AE0;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.cardfour h1{
+    margin-left: 35px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.cardfour button{
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 7px 16px;
+    border-radius: 10px;
+    border: 1px solid black;   
+}
+
+.populer{
+    width: 100%;
+}
+.most{
+    text-align: center;
+    margin: 100px 0;
+}
+.most a{
+    text-decoration: none;
+    color: #1E8AE0;
+}
+.most h1{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-family:  'Roboto', sans-serif;
+}
+.most p{
+    color: #707070;
+}
+.offer{
+    display: inline-flex;
+    width: 100%;
+   
+}
+.offeritem{
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    border:1px solid#0000002b;
+    box-shadow: 0px 21px 19px #0000002e;
+    border-radius: 15px;
+}
+.offeritem img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.offeritem h2{
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #2e2d2d;
+    margin: 10px;
+}
+.offeritem p{
+    margin-bottom: 10px;
+    color: #707070;
+}
+.offeritem h6{
+    font-size: 15px;
+    color: #1E8AE0;
+    margin-bottom: 15px;
+}
+
+.ad{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.add{}
+
+.add a{
+   text-decoration: none;
+   color: #1E8AE0;
+}
+.add h2{
+    margin-top: 25px;
+    font-size: 40px;
+    font-family:  'Roboto', sans-serif;
+}
+.add p{
+    margin-top: 25px;
+    color: #707070
+}
+
+.border{
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.borderbox{
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    border:1px solid#0000002b;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    box-shadow: 0px 21px 19px #0000002e;
+}
+.borderbox img{
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.borderbox h4{
+    background:#0968b5;
+    border-radius: 10px;
+    margin: 0 60px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px;
+}
+.borderbox h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444343;
+}
+.borderbox p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 12px;
+    color: #707070;
+    
+}
+.img{
+    width: 100%;
+}
+.pic{
+    display: flex;
+    width: 100%;
+}
+.pic img{
+    width: 166.6px;
+}
+
+.footer{
+    width: 100%;
+    background: black;  
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.whitelogo{}
+.whitelogo img{
+    width: 189px;
+    margin-left: 10px;
+}
+.footernav{}
+.footernav ul{}
+.footernav ul li{
+    display: inline-flex;
+}
+.footernav ul li a{
+    color:#ffffffc4;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+}
+.footernav ul li a:hover{
+    color: brown;
+}
+.p{
+    margin-right: 10px;
+}
+.p h4{
+    color: rgb(184, 181, 181);
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+
+
+    body{
+        width:93%;
+    }
+    .header{
+        width: 100%;
+    }
+    .hdpart{}
+    .logo{}
+    .logo h1{
+        font-size: 34px;
+        margin-left: 78px;
+    }
+    .nav{
+        display: none;
+    }
+    .nav ul{}
+    .nav ul li{}
+    .nav ul li a{}
+    
+    .nav ul li a:hover{}
+    .login{
+        display: none;
+    }
+    .login a{}
+    .login a{}
+    .login a:hover{}
+
+    .bdpart{
+        width: 100%;
+        margin: 0;
+        margin-top: 216px;
+    }
+    .bdpart h1{
+        width: 70%;
+        font-size: 25px;
+    }
+    .bdpart p{
+        width: 80%;
+        font-size: 12px;
+    }
+    .bdpart button{
+        width: 50%;
+        margin: 3px;
+        font-size: 10px;
+        padding: 6px 0px;
+    }
+    .one{
+        display: none;
+    }
+    
+    .banner{
+        display: inline;
+        width: 100%;
+    }
+    .product{}
+    .product img{}
+    .product h2{}
+    .product p{}
+    
+    .arrivals{}
+    .arrivals a{}
+    .arrivals h2{ }
+    .arrivals p{}
+    
+    .caseitem{}
+    .option {}
+    .option h4{}
+    .option h4:hover{}
+
+
+
+    .cases{
+        display: inline;
+        width: 100%;
+    }
+    .phonecase{
+        width: 100%;
+    }
+    .phonecase img{}
+    .phonecase h1{}
+    .phonecase p{}
+    .phonecase h5{}
+
+
+    
+    .provide{}
+    .quality{}
+    .quality a{}
+    .quality h1{
+        font-size: 25px;
+    }
+    .quality p{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    
+    .fast{
+        width: 100%;
+        display: inline;
+    }
+    .best{
+        width: 88%;
+    }
+    .best img{}
+    .best h1{}
+    .best p{
+        font-size: 11px;
+    }
+
+
+    .card{
+        display: inline;
+        margin: 0;
+        width: 98%;
+       
+    }
+    .cardone{
+        width: 93%;
+        margin-top: 25px;
+    }
+    .cardone p{
+        
+    }
+    .cardone h1{
+        
+    }
+    .cardone button{
+        
+    }
+    .cardtwo{
+        width: 89%;
+        margin-top: 25px;
+    }
+    .cardtwo p{
+        
+    }
+    .cardtwo h1{
+       
+    }
+    .cardtwo button{
+       
+    }
+
+    .cardd{
+        display: inline;
+        width: 100%;
+    }
+    .cardthree{
+        width: 90%;
+       
+    }
+    .cardthree p{
+        
+    }
+    .cardthree h1{
+       
+    }
+    .cardthree button{
+       
+    }
+    
+    .cardfour{
+        width: 93%;
+       
+    }
+    .cardfour p{
+       
+    }
+    .cardfour h1{
+       
+    }
+    .cardfour button{
+        
+    }
+    
+    .populer{}
+    .most{}
+    .most a{}
+    .most h1{}
+    .most p{}
+
+    .offer{
+        width: 100%;
+        display: inline;
+    }
+    .offeritem{
+        width: 94%;
+    }
+    .offeritem img{}
+    .offeritem h2{}
+    .offeritem p{}
+    .offeritem h6{}
+    
+    .ad{}
+    .add{}
+    
+    .add a{}
+    .add h2{}
+    .add p{}
+    
+    .border{
+        display: inline;
+        width: 100%;
+    }
+    .borderbox{
+        width: 100%;
+    }
+    .borderbox img{}
+    .borderbox h4{}
+    .borderbox h1{}
+    .borderbox p{}
+    .img{}
+    .pic{
+        display: none;
+    }
+    .pic img{}
+    
+    .footer{
+        display: none;
+    }
+    .about{}
+    .whitelogo{}
+    .whitelogo img{}
+    .footernav{}
+    .footernav ul{}
+    .footernav ul li{}
+    .footernav ul li a{}
+    .footernav ul li a:hover{}
+    .p{}
+    .p h4{}
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+}
